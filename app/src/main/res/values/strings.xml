@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Desenvolvimento_2025_REALDEAL</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Ainda não tem cadastro?</string>
+    <string name="text_cadastrar_login">Cadastrar</string>
+    <string name="title_activity_form_cadastro">FormCadastro</string>
+    <string name="title_activity_form_cadastro.java">FormCadastro.java</string>
+</resources>
