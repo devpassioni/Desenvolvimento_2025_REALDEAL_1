@@ -5,4 +5,12 @@
     <string name="text_cadastrar_login">Cadastrar</string>
     <string name="title_activity_form_cadastro">FormCadastro</string>
     <string name="title_activity_form_cadastro.java">FormCadastro.java</string>
+    <string name="header_form_Cadastro">Bem vindo a Real Deal, o seu aplicativo de Ofertas</string>
+    <string name="cadastro_text1">Crie sua Conta</string>
+    <string name="cadastro_text2">Informe abaixo seus dados de cadastro</string>
+    <string name="cadastro_email">Informe seu email</string>
+    <string name="cadastro_nomeC">Informe seu nome completo</string>
+    <string name="cadastro_senha">Informe sua senha</string>"
+    <string name="cadastrar_perfil">Cadastrar</string>
+
 </resources>

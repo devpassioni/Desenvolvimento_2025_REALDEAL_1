@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Desenvolvimento_2025_REALDEAL" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
     <style name="ContainerComponets">
         <item name="android:layout_width">match_parent</item>
@@ -45,31 +51,5 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </resources>
 

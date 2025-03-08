@@ -109,7 +109,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botao_cadastro_login"
         style="@style/login_BT_Registrar"
-        android:layout_width="120dp"
+        android:layout_width="130dp"
         android:layout_height="57dp"
         android:layout_marginBottom="80dp"
         android:background="@drawable/botao_login_registro"
