@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastro">
+
+    <TextView
+        android:id="@+id/header_form_Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/header_form_Cadastro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="@id/header_form_Cadastro"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="@id/header_form_Cadastro"
+        app:layout_constraintTop_toBottomOf="@id/header_form_Cadastro" />
+
+    <TextView
+        android:id="@+id/cadastro_text1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cadastro_text1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/logo"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:id="@+id/cadastro_text2"
+        android:layout_width="303dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cadastro_text2"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_text1"
+        app:layout_constraintTop_toTopOf="@id/cadastro_text1"
+        tools:layout_editor_absoluteX="67dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/cadastro_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cadastro_email"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/cadastro_text2"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_text2" />
+
+    <EditText
+        android:id="@+id/Ic_email"
+        style="@style/Edit_Text"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/ic_email"
+        android:hint="Email"
+        app:layout_constraintStart_toStartOf="@id/cadastro_email"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_email" />
+
+    <TextView
+        android:id="@+id/cadastro_nomec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cadastro_nomeC"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/Ic_email"
+        app:layout_constraintTop_toBottomOf="@id/Ic_email"/>
+
+    <EditText
+        android:id="@+id/Ic_nomeC"
+        style="@style/Edit_Text"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/baseline_assignment_ind_24"
+        android:hint="Email"
+        app:layout_constraintStart_toStartOf="@id/cadastro_nomec"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_nomec" />
+
+    <TextView
+        android:id="@+id/cadastro_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cadastro_senha"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/Ic_nomeC"
+        app:layout_constraintTop_toBottomOf="@id/Ic_nomeC" />
+
+    <EditText
+        android:id="@+id/IC_senha"
+        style="@style/Edit_Text"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"
+        android:hint="Email"
+        app:layout_constraintStart_toStartOf="@id/cadastro_senha"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_senha" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Bt_Entrar"
+        style="@style/Button"
+        android:layout_width="319dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="@string/cadastrar_perfil"
+
+        app:layout_constraintEnd_toEndOf="@id/IC_senha"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="@id/IC_senha"
+        app:layout_constraintTop_toBottomOf="@id/IC_senha">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
